@@ -1,0 +1,29 @@
+/* pages/index2/index.wxss */
+.box {
+  height: 100rpx;
+  width: 100rpx;
+  border: 1px solid #ccc;
+  border-radius: 16px;
+  color: rgb(34, 34, 34);
+  font-size: 34rpx;
+  line-height: 100rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.h-200 {
+  height: 400rpx;
+}
+
+.flex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.wdfull {
+  width: 100%;
+}

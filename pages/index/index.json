@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "player": "../../components/player/player"
+  }
+}

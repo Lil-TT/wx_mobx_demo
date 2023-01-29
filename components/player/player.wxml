@@ -1,0 +1,15 @@
+<!--components/player/player.wxml-->
+<view class="container">
+  <view class="flex wdfull h-200">
+    <view class="box">{{num1}}</view>
+    <view class="box">
+      <image src="../../icons/add.png" mode="aspectFill" style="height: 50rpx;width: 50rpx;" />
+    </view>
+    <view class="box">{{num2}}</view>
+    <view class="box">
+      <image src="../../icons/equals.png" mode="aspectFill" style="height: 50rpx;width: 50rpx;" />
+    </view>
+    <view class="box">{{sum}}</view>
+  </view>
+  <button type="primary" bindtap="sum">点我+1</button>
+</view>
